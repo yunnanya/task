@@ -1,14 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ten\\",
+  "WorkspaceRootPath": "D:\\Unity\u9879\u76EE\\ten\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B88D1A1-48C7-F059-AA96-05CB669C8067}|Assembly-CSharp.csproj|d:\\ten\\assets\\\u811A\u672C\\\u5750\u6807\u968F\u673A\u53D8\u5316.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9B88D1A1-48C7-F059-AA96-05CB669C8067}|Assembly-CSharp.csproj|d:\\unity\u9879\u76EE\\ten\\assets\\\u811A\u672C\\\u5750\u6807\u968F\u673A\u53D8\u5316.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B88D1A1-48C7-F059-AA96-05CB669C8067}|Assembly-CSharp.csproj|solutionrelative:assets\\\u811A\u672C\\\u5750\u6807\u968F\u673A\u53D8\u5316.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B88D1A1-48C7-F059-AA96-05CB669C8067}|Assembly-CSharp.csproj|d:\\ten\\assets\\\u811A\u672C\\\u9635\u5217.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B88D1A1-48C7-F059-AA96-05CB669C8067}|Assembly-CSharp.csproj|solutionrelative:assets\\\u811A\u672C\\\u9635\u5217.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,26 +20,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "\u5750\u6807\u968F\u673A\u53D8\u5316.cs",
-              "DocumentMoniker": "D:\\ten\\Assets\\\u811A\u672C\\\u5750\u6807\u968F\u673A\u53D8\u5316.cs",
+              "DocumentMoniker": "D:\\Unity\u9879\u76EE\\ten\\Assets\\\u811A\u672C\\\u5750\u6807\u968F\u673A\u53D8\u5316.cs",
               "RelativeDocumentMoniker": "Assets\\\u811A\u672C\\\u5750\u6807\u968F\u673A\u53D8\u5316.cs",
-              "ToolTip": "D:\\ten\\Assets\\\u811A\u672C\\\u5750\u6807\u968F\u673A\u53D8\u5316.cs",
+              "ToolTip": "D:\\Unity\u9879\u76EE\\ten\\Assets\\\u811A\u672C\\\u5750\u6807\u968F\u673A\u53D8\u5316.cs",
               "RelativeToolTip": "Assets\\\u811A\u672C\\\u5750\u6807\u968F\u673A\u53D8\u5316.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T07:03:21.187Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "\u9635\u5217.cs",
-              "DocumentMoniker": "D:\\ten\\Assets\\\u811A\u672C\\\u9635\u5217.cs",
-              "RelativeDocumentMoniker": "Assets\\\u811A\u672C\\\u9635\u5217.cs",
-              "ToolTip": "D:\\ten\\Assets\\\u811A\u672C\\\u9635\u5217.cs",
-              "RelativeToolTip": "Assets\\\u811A\u672C\\\u9635\u5217.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAkwAIAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T06:43:40.795Z",
+              "WhenOpened": "2025-02-08T08:37:59.17Z",
               "EditorCaption": ""
             }
           ]
