@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{9B88D1A1-48C7-F059-AA96-05CB669C8067}|Assembly-CSharp.csproj|solutionrelative:assets\\\u811A\u672C\\\u5750\u6807\u968F\u673A\u53D8\u5316.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B88D1A1-48C7-F059-AA96-05CB669C8067}|Assembly-CSharp.csproj|d:\\unity\u9879\u76EE\\ten\\assets\\\u811A\u672C\\\u8BA1\u7B97\u8DDD\u79BB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B88D1A1-48C7-F059-AA96-05CB669C8067}|Assembly-CSharp.csproj|solutionrelative:assets\\\u811A\u672C\\\u8BA1\u7B97\u8DDD\u79BB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B88D1A1-48C7-F059-AA96-05CB669C8067}|Assembly-CSharp.csproj|D:\\Unity\u9879\u76EE\\ten\\assets\\\u811A\u672C\\prefabreplacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B88D1A1-48C7-F059-AA96-05CB669C8067}|Assembly-CSharp.csproj|solutionrelative:assets\\\u811A\u672C\\prefabreplacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,15 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "\u8BA1\u7B97\u8DDD\u79BB.cs",
-              "DocumentMoniker": "D:\\Unity\u9879\u76EE\\ten\\Assets\\\u811A\u672C\\\u8BA1\u7B97\u8DDD\u79BB.cs",
-              "RelativeDocumentMoniker": "Assets\\\u811A\u672C\\\u8BA1\u7B97\u8DDD\u79BB.cs",
-              "ToolTip": "D:\\Unity\u9879\u76EE\\ten\\Assets\\\u811A\u672C\\\u8BA1\u7B97\u8DDD\u79BB.cs",
-              "RelativeToolTip": "Assets\\\u811A\u672C\\\u8BA1\u7B97\u8DDD\u79BB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAUAAAAAAAAAA==",
+              "Title": "PrefabReplacer.cs",
+              "DocumentMoniker": "D:\\Unity\u9879\u76EE\\ten\\Assets\\\u811A\u672C\\PrefabReplacer.cs",
+              "RelativeDocumentMoniker": "Assets\\\u811A\u672C\\PrefabReplacer.cs",
+              "ToolTip": "D:\\Unity\u9879\u76EE\\ten\\Assets\\\u811A\u672C\\PrefabReplacer.cs",
+              "RelativeToolTip": "Assets\\\u811A\u672C\\PrefabReplacer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T09:36:54.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T08:11:12.332Z"
             },
             {
               "$type": "Document",
@@ -41,7 +40,7 @@
               "RelativeDocumentMoniker": "Assets\\\u811A\u672C\\\u5750\u6807\u968F\u673A\u53D8\u5316.cs",
               "ToolTip": "D:\\Unity\u9879\u76EE\\ten\\Assets\\\u811A\u672C\\\u5750\u6807\u968F\u673A\u53D8\u5316.cs",
               "RelativeToolTip": "Assets\\\u811A\u672C\\\u5750\u6807\u968F\u673A\u53D8\u5316.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAUwFEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-08T08:37:59.17Z",
               "EditorCaption": ""

@@ -1,9 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-#if UNITY_EDITOR
-using UnityEditor;
-#endif
 using UnityEngine.Experimental.Rendering;
 using UnityEngine.Serialization;
 using UnityEngine.U2D;
@@ -769,14 +766,9 @@ namespace UnityEngine.UI
             {
                 if (m_Material != null)
                     return m_Material;
-
-                //Edit and Runtime should use Split Alpha Shader if EditorSettings.spritePackerMode = Sprite Atlas V2
 #if UNITY_EDITOR
-                if ((Application.isPlaying || EditorSettings.spritePackerMode == SpritePackerMode.SpriteAtlasV2) &&
-                    activeSprite && activeSprite.associatedAlphaSplitTexture != null)
-                {
+                if (Application.isPlaying && activeSprite && activeSprite.associatedAlphaSplitTexture != null)
                     return defaultETC1GraphicMaterial;
-                }
 #else
 
                 if (activeSprite && activeSprite.associatedAlphaSplitTexture != null)
@@ -1105,9 +1097,6 @@ namespace UnityEngine.UI
 
                     int y2 = y + 1;
 
-                    // Check for zero or negative dimensions to prevent invalid quads (UUM-71372)
-                    if ((s_VertScratch[x2].x - s_VertScratch[x].x <= 0) || (s_VertScratch[y2].y - s_VertScratch[y].y <= 0))
-                        continue;
 
                     AddQuad(toFill,
                         new Vector2(s_VertScratch[x].x, s_VertScratch[y].y),
@@ -1856,7 +1845,7 @@ namespace UnityEngine.UI
         {
             Rect spriteRect = activeSprite.rect;
             if (type == Type.Simple || type == Type.Filled)
-                return new Vector2(spriteRect.position.x + local.x * spriteRect.width / rect.width, spriteRect.position.y + local.y * spriteRect.height / rect.height);
+                return new Vector2(local.x * spriteRect.width / rect.width, local.y * spriteRect.height / rect.height);
 
             Vector4 border = activeSprite.border;
             Vector4 adjustedBorder = GetAdjustedBorders(border / pixelsPerUnit, rect);
@@ -1885,7 +1874,7 @@ namespace UnityEngine.UI
                 }
             }
 
-            return local + spriteRect.position;
+            return local;
         }
 
         // To track textureless images, which will be rebuild if sprite atlas manager registered a Sprite Atlas that will give this image new texture
