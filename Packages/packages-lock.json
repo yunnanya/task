@@ -7,6 +7,15 @@
       "dependencies": {},
       "hash": "4554e279ae43277841948a98c97ed398a987fce3"
     },
+    "com.unity.ai.navigation": {
+      "version": "1.1.5",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.ai": "1.0.0"
+      },
+      "url": "https://packages.unity.cn"
+    },
     "com.unity.collab-proxy": {
       "version": "2.6.0",
       "depth": 0,
