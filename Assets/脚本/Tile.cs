@@ -47,7 +47,7 @@ namespace PathFinding
 
         public Vector3 ToWorldPosition()
         {
-            return new Vector3(Col, 0.0f, Row);
+            return new Vector3(Col + 0.5f, 0.0f, Row + 0.5f);
         }
     }
 }
